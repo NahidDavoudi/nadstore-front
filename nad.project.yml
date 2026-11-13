@@ -1,0 +1,9 @@
+schemaVersion: 1
+name: nadstore
+type: node
+baseBranch: main
+docker:
+  container: nadstore
+  port: 3000
+  networks:
+    - proxy
